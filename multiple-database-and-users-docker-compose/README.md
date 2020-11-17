@@ -7,3 +7,7 @@ Creerò 3 diverse istanze di db:
 -DEV
 -TEST
 inizialmente userò docker compose
+
+https://www.mariadbtutorial.com/getting-started/connect-to-mariadb/ : comandi fondamentali per poter usare mariadb!
+
+docker exec -it nome_container /bin/bash per accedere dentro un container(rulof)

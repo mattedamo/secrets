@@ -12,7 +12,7 @@ services:
       MYSQL_PASSWORD: user
 
     volumes: 
-      - ./init:/docker-entrypoint-initdb.d
+        - ./init:/docker-entrypoint-initdb.d
 
   adminer:
     image: adminer
